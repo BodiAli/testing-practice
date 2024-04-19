@@ -17,6 +17,7 @@
       "no-loop-func": "warn",
       "no-plusplus": ["warn", { "allowForLoopAfterthoughts": true }],
       "quotes": ["warn", "double"],
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
       "import/extensions": [
         "error",
         "ignorePackages",
@@ -27,7 +28,6 @@
           "tsx": "never"
         }
      ]
-  
    }
   }
   
